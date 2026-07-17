@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv-build/
+.venv-check/
+.venv-git-check/
+artifacts/
+out/

@@ -1,0 +1,21 @@
+{
+  "modelId": "rolling-stock.wagon.40ft-box-v2",
+  "kind": "wagon",
+  "lengthOverCouplers": 13.5128,
+  "bodyLength": 12.7508,
+  "width": 3.2512,
+  "height": 4.4196,
+  "wheelRadius": 0.4191,
+  "bogieCentreOffset": 4.699,
+  "bogieWheelbase": 1.6764,
+  "bogiePivotHeight": 0.96,
+  "seed": 190702,
+  "livery": {
+    "body": [0.196, 0.070, 0.047],
+    "frame": [0.055, 0.055, 0.058],
+    "runningGear": [0.038, 0.036, 0.034],
+    "roof": [0.072, 0.070, 0.066],
+    "stencil": [0.75, 0.73, 0.66],
+    "glass": [0.10, 0.12, 0.13]
+  }
+}
