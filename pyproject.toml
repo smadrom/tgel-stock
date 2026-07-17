@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tgel-stock"
+version = "1.0.0"
+description = "Headless Blender pipeline for procedural rolling-stock (train) model generation"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "smadrom" }]
+keywords = ["blender", "procedural-generation", "rolling-stock", "train", "fbx", "game-assets"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Graphics :: 3D Modeling",
+]
+
+[project.urls]
+Homepage = "https://github.com/smadrom/tgel-stock"
+Repository = "https://github.com/smadrom/tgel-stock"
+
+[tool.setuptools.packages.find]
+include = ["tgel_stock*"]
