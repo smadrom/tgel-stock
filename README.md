@@ -95,16 +95,21 @@ topology and material assignments.
 
 ## Building the package
 
+Run the PyPA `build` frontend from OUTSIDE the repository root: this repo's
+own `build.py` (the Blender orchestrator) shadows the `build` package when
+`python -m build` runs with the repository root as the working directory.
+
 ```bash
 py -3.12 -m venv .venv-build
 .venv-build/Scripts/python -m pip install build
-.venv-build/Scripts/python -m build
+cd ..
+tgel-stock/.venv-build/Scripts/python -m build tgel-stock
 ```
 
 Produces `dist/tgel_stock-1.0.0-py3-none-any.whl` and
-`dist/tgel_stock-1.0.0.tar.gz`. The wheel intentionally contains only the
-`tgel_stock` Python package; recipes, tests and `build.py` live in this
-repository and run from a clone.
+`dist/tgel_stock-1.0.0.tar.gz` (in `tgel-stock/dist/`). The wheel
+intentionally contains only the `tgel_stock` Python package; recipes, tests
+and `build.py` live in this repository and run from a clone.
 
 ## Repository layout note
 
