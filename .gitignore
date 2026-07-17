@@ -8,3 +8,4 @@ dist/
 .venv-git-check/
 artifacts/
 out/
+.superpowers/
